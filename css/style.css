@@ -35,7 +35,7 @@ ul,li{
   
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%,#3ED5DD,rgb(2, 0, 8));;
-    padding:40px;
+    padding: 10px 20px;
     border-radius: 10px;
     -webkit-box-shadow: 3px 9px 49px 0px rgba(255,255,255,1);
     -moz-box-shadow: 3px 9px 49px 0px rgba(255,255,255,1);
@@ -78,7 +78,7 @@ ul,li{
 /*banner part css start*/
 
 #bannerpart{
-    background: url(../images/Hero.png);
+    background: url('../images/Hero.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
