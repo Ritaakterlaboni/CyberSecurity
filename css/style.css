@@ -15,21 +15,24 @@ ul,li{
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 20px;
-    
+    padding-top: 0px;
+    z-index: 9999;
+    background-color: #000 !important; 
+ 
   }
 
 /*navbar css start*/
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-	color: #fff;
+
+ .navbar-nav .nav-item .nav-link {
+	color: #fff !important;
     font-family: "Titillium Web", sans-serif;
     font-size: 16px;
     font-weight: 600;
     padding:0 15px;
 }
 .nav-item a:hover{
-   
+  
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%,#3ED5DD,rgb(2, 0, 8));;
     padding:40px;
@@ -38,6 +41,7 @@ ul,li{
     -moz-box-shadow: 3px 9px 49px 0px rgba(255,255,255,1);
     box-shadow: 3px 9px 49px 0px rgba(255,255,255,1);
 }
+
 .navbtn a{
     padding:10px 20px;
     font-size: 20px;
@@ -46,6 +50,18 @@ ul,li{
    background: #3ED5DD;
     border-radius: 10px;
     color:#fff;
+}
+
+
+
+.navbtn a {
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  background: #3ED5DD;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .navbar-expand-lg .navbar-nav:hover{
@@ -62,7 +78,7 @@ ul,li{
 /*banner part css start*/
 
 #bannerpart{
-    background: url(images\Hero.png);
+    background: url(../images/Hero.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
