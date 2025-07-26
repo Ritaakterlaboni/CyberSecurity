@@ -1,0 +1,677 @@
+/*all common css start*/
+*{
+    margin:0;
+    padding:0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+
+.navbar-expand-lg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+
+/*navbar css start*/
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #fff;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding:0 15px;
+}
+.nav-item a:hover{
+   
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%,#3ED5DD,rgb(2, 0, 8));;
+    padding:40px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 9px 49px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 3px 9px 49px 0px rgba(255,255,255,1);
+    box-shadow: 3px 9px 49px 0px rgba(255,255,255,1);
+}
+.navbtn a{
+    padding:10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+   background: #3ED5DD;
+    border-radius: 10px;
+    color:#fff;
+}
+
+.navbar-expand-lg .navbar-nav:hover{
+    background: #f1eeee73;
+    padding:10px;
+    border-radius: 20px;
+   
+}
+.nav-corner-logo{
+    z-index:0;
+}
+
+/*navbar part css end*/
+/*banner part css start*/
+
+#bannerpart{
+    background: url(../images/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:150px;
+}
+.bannertittle h3{
+    font-size: 71px;
+    font-weight: 700;
+    color:#fff;
+    font-family: "Titillium Web", sans-serif;
+    margin-bottom: 30px;
+    z-index: index 1;
+}
+.bannertittle p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+    font-family: "Poppins", sans-serif;
+}
+.bannerbtn a{
+    padding:20px;
+    background: #3ED5DD;
+    color:#fff;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+}
+.bannerbtn span{
+    padding:10px;
+    background: #3ED5DD;
+    color:#fff;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    
+}
+.img:hover{
+    cursor: pointer;
+  
+}
+
+/*banner part css end*/
+
+/*about us part css start*/
+#Aboutuspart{
+    background: url(../images/Aboutus.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:100px;
+}
+
+.images{
+    position:relative;
+   /* -webkit-box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+-moz-box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);*/
+}
+.images img:hover{
+    -webkit-box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+-moz-box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+}
+.images span{
+    position:absolute;
+    top:150px;
+    left:110px;
+}
+.text h4{
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    color:#3ED5DD;
+}
+.text h2{
+    color:#ffffff;
+    font-size: 67px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+}
+.text p{
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.aboutus_btn a{
+    padding:20px;
+    background: #3ED5DD;
+    text-align: center;
+    border-radius: 10px;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+}
+/*about us part css end*/
+/*sathy part start*/
+/* service part sart */
+#service-part{
+    background: url(../images/OurService.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:100px;
+}
+
+.service-textpart h5{
+    font-size: 21px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500 ;
+    color:#3ED5DD ;
+
+}
+.service-textpart h2{
+    font-size: 67px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500 ;
+    color:white ;
+
+}
+.service-textpart p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif; 
+    font-weight:500 ;
+    color:white;
+
+}
+.service-textpart{
+    margin-bottom: 90px;
+}
+.service-box{
+   position:relative;
+}
+
+.ser-txt h3 {
+    color: white;
+    font-size: 30px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+    
+    margin: 0px 10px;
+    position:absolute;
+  }
+.ser-txt p{
+    color: white;
+    font-size: 16px;
+    font-family:"Poppins", sans-serif; 
+    font-weight:300;
+    padding-top:120px;
+    margin-bottom: 10px;
+  
+}
+.icon1:hover{
+    background: #3d3c3c;
+    border-radius: 20px;
+    border:1px solid #3ED5DD;
+    z-index: 0;
+    padding-top: 5px;
+    
+    
+}
+.circle{
+    height: 80px;
+    width:80px;
+    border-radius: 80px;
+    background: none;
+    border: 1px solid #3ED5DD !important;
+    border:#fff;
+    text-align: center;
+    padding-top:15px;
+    
+    
+}
+.circle:hover{
+    background: #3ED5DD;
+    border:4px solid white;
+    z-index: 1;
+}
+.circle1{
+    height: 80px;
+    width:80px;
+    border-radius: 80px;
+    background: none;
+    border: 1px solid #3ED5DD !important;
+    border:#fff;
+    text-align: center;
+    padding-top:10px;
+    
+    
+}
+.circle1:hover{
+    background: none;
+    border:4px solid white;
+    
+}
+.icon1 img{
+    font-size: 30px;
+
+   
+}
+
+
+
+
+/* service part sart */
+
+/* featured point part start */
+
+
+
+.featured h2{
+    font-size: 21px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500 ;
+    color:#3ED5DD ;
+    padding-bottom: 10px;
+
+}
+.featured h5{
+    font-size: 67px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500 ;
+    color: white;
+    padding-bottom: 15px;
+
+    
+
+}
+.featured p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight:300;
+    color: white;
+   
+   
+ 
+
+}
+.featured-text h2{
+    font-size: 28px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500 ;
+    color: white;
+    padding-bottom: 5px;
+   
+
+}
+.half{
+    margin-top: 30px;
+}
+.featured-text h4{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight:300;
+    color: white;
+    
+}
+.featured-text{
+    padding: 30px 30px;
+    background-color:rgb(41,41,41);
+    border-radius: 30px;
+    
+
+}
+.our-picture:hover{
+    filter: grayscale(40%);
+  
+}
+
+
+/* featured part start */
+/* goals part start */
+
+#featured-pont{
+    background: url(../images/featuredpoint.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px;
+}
+
+#goals-part{
+    background: url(../images/Our-Goals.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+}
+#priceinf{
+    background: url(../images/Pricingtable.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+
+.slide {
+    padding-top: 30px;
+    color: #fff;
+    margin-left: 220px;
+  }
+  .slide i{
+    padding:0px 7px;
+  }
+
+
+.goalstext h5{
+    font-size: 21px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500 ;
+    color:#3ED5DD ;
+
+}
+.goalstext h2{
+    font-size: 67px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500 ;
+    color: #fff;
+}
+.goalstext p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight:300;
+    padding-top: 20px;
+    color: #fff;
+
+}
+
+
+.goals-headding{
+    padding: 10px;
+    background: rgb(41,41,41);
+    border-radius: 30px;
+    text-align: justify;
+    
+   border:2px solid #3ED5DD;
+   
+}
+
+.goals-headding h3{
+    font-size: 28px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500;
+    padding: 15px;
+    color:#fff;
+    text-align: left;
+
+    
+
+}
+.goals-headding p:hover{
+    color:#fff;
+}
+.goals-headding h3:hover{
+    color:#3ED5DD;
+}
+
+.goals-headding p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight:300;
+    padding-top: 8px;
+    color:#000;
+}
+.goals-headding:hover{
+    border: 3px solid #fff;
+   
+    
+}
+/* goals part end */
+
+/* pricinng start */
+.card-body{
+    background-color:rgb(41,41,41);
+    padding: 38px 30px;
+    border-radius: 20px;
+}
+.card-textpart h5{
+    font-size: 21px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500 ;
+    color:#3ED5DD ;
+    margin-top: 20px;
+   
+}
+.card-textpart h2{
+    font-size: 67px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500 ;
+    padding-right: 50px;
+    color: white;
+    padding: 0px 121px;
+}
+    
+
+.card-textpart p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight:300;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+
+.card-text h3 {
+    font-size: 21px;
+    font-family: "Titillium Web", sans-serif; 
+    font-weight:500 ;
+    color:#3ED5DD ;
+    text-align: center;
+   
+
+}
+.card-text p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight:300;
+    color: white;
+    text-align: center;
+    
+
+}
+.dtext{
+    color: white;
+    width: 100%;
+    font-size: 38px;
+    font-family:"Titillium Web", sans-serif;
+    font-weight:500;
+    border-radius: 50px;
+    background-color:black;
+    margin-bottom: 20px;
+
+}
+.dtext:hover{
+    background-color:#2FCADB ;
+}
+.list{
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight:300;
+}
+.dtext-color{
+    color: white;
+    width: 100%;
+    font-size: 38px;
+    font-family:"Titillium Web", sans-serif;
+    font-weight:500;
+   
+    background-color: #2FCADB;
+}
+.card-body:hover{
+    border: 4px solid #3ED5DD;
+    -webkit-box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+    -moz-box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+    box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+
+}
+/* pricing part end */
+
+
+
+/*sathy part end*/
+/*khadiza part start*/
+/*  Review Part Start   */
+/*.background{
+    background: url(../images/reviewimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px ;
+}*/
+#reviewPart{
+    padding: 10px 100px 50px 100px ; 
+    background: url(../images/Testimonial.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+   .star{
+    color:gold;
+   }
+  .Item:hover{
+    background: rgba(176, 167, 167, 0.147);
+    border-radius: 20px;
+    transition: .4s;
+    padding:25px;
+  }
+  .Item{
+    padding:25px;
+  }
+  .container h5{
+    font-size: 21px;
+    font-weight: 600;
+    color: #3ED5DD;
+    font-family: "Titillium Web", sans-serif; 
+ 
+ }
+  .container h2{
+    
+    font-size: 73px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Titillium Web", sans-serif; 
+ 
+ }
+ .rew_title h2{
+    font-size: 73px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Titillium Web", sans-serif; 
+ }
+ .container h4{
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f0efef;
+    font-family: "Poppins", sans-serif;
+ }
+ /* .reviewer{
+    display: flex;
+ } */
+
+ .women{
+    margin-top: 20px;
+    height: 56px;
+    width: 56px;
+ }
+ .reviewer h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Titillium Web", sans-serif; 
+ 
+ }
+ .reviewer p{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 12px;
+   font-weight: 400;
+   color: #FFFFFF;
+   font-family: "Poppins", sans-serif;
+ }
+ 
+ .reviewer{
+    display: flex;
+ } 
+ /*.clientDetails{
+    margin-left: 20px;
+ }
+/* Review Part End  */
+
+
+
+/* Contact Part Start  */
+
+#ContactPart{
+    background: url(../images/Footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.container h2{
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Titillium Web", sans-serif; 
+}
+.container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+.Items h3{
+    font-size: 21px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Titillium Web", sans-serif; 
+}
+.Items p{
+ padding-top: 5px;
+ font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+.Icons{
+    font-size: 30px;
+    color:#968f8f !important;
+}
+
+.contactBOx{
+  border-radius: 20px;
+  padding-top: 5px;
+}
+.Items i{
+    color:#fff;
+}
+/* Contact Part Start  */
+
+/*khadiza part end*/
