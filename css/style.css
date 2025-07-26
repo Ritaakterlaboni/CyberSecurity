@@ -62,7 +62,7 @@ ul,li{
 /*banner part css start*/
 
 #bannerpart{
-    background: url(../images/hero.png);
+    background: url(images\Hero.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
